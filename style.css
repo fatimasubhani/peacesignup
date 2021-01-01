@@ -1,0 +1,127 @@
+@import"./tabley_style.css" screen and (min-width:525px); 
+@import"./phone_style.css" screen and (max-width:524px);
+@import"./monitor_style.css" screen and (min-width:1272px);   
+
+*{ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(252, 252, 252);
+}
+body{
+    padding: 3rem;
+}
+h1{
+    margin-top: 50px;
+    font-size: 27px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+footer{
+    margin-top: 6rem;
+    text-align: center;
+    font-weight: lighter;
+}
+.sociallinks{
+    margin-left: 15px;
+    padding: 2px;
+   
+}
+#mc_embed_signup{
+    display: block;
+     font:14px 'Asap', sans-serif;  
+     width:300px; 
+     padding: 1.5rem;
+    text-align: center;
+}
+ .button{
+        color: rgb(255, 255, 255) ;
+        background: #bc6c25;
+        margin-top: 5px;
+        border-radius: 20px;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: hidden;
+    }
+h2{
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+.requiredemail{
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear: both;
+}
+label{
+    font-weight: bold;
+    clear: both;
+}
+.homepic{
+    display: flex;
+    float: right;
+    margin-top: 3rem;
+}
+.aboutus{
+    line-height: 1.5rem;
+    text-indent: 20px;
+    margin-bottom: 0px;
+}
+.founder{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 0px;
+}
+/* Phone */
+@media (max-width:524px){
+    .homepic{
+        display: none;
+    }
+}
+
+/* Tablets */
+@media(min-width: 525px) and (max-width:799px){
+
+    .homepic{
+        clear: both;
+        margin-top: 9rem;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    footer{
+        clear: both;
+    }
+    #about{
+        display: none;
+    }
+}
+@media (min-width:800px) and (max-width:1069px){
+
+    .homepic{
+        clear: both;
+        margin-top: 40rem;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+    footer{
+        clear: both;
+    }
+}
+@media (min-width:1070px) and (max-width:1180px){
+    
+    .homepic{
+        width: 400px;
+    }
+}
+/* Normal */
+@media (min-width:1181px) and (max-width:1279px){
+    .homepic{
+        width: 500px;
+    }
+}
+
+/* Widescreen */
+@media (min-width:1280px){
+
+}
